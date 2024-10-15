@@ -21,8 +21,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="HardcodedText" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_ce"
@@ -199,8 +198,7 @@
         app:layout_constraintHeight_percent="0.12"
         app:layout_constraintStart_toEndOf="@id/button_6"
         app:layout_constraintTop_toTopOf="@id/button_4"
-        app:layout_constraintWidth_percent="0.25"
-        tools:ignore="HardcodedText" />
+        app:layout_constraintWidth_percent="0.25" />
 
     <Button
         android:id="@+id/button_1"
@@ -216,8 +214,7 @@
         app:layout_constraintHeight_percent="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_4"
-        app:layout_constraintWidth_percent="0.25"
-        tools:ignore="HardcodedText" />
+        app:layout_constraintWidth_percent="0.25" />
     <Button
         android:id="@+id/button_2"
         android:layout_width="wrap_content"
@@ -276,8 +273,7 @@
         app:layout_constraintHeight_percent="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_1"
-        app:layout_constraintWidth_percent="0.25"
-        tools:ignore="HardcodedText" />
+        app:layout_constraintWidth_percent="0.25" />
 
     <Button
         android:id="@+id/button_0"
@@ -292,8 +288,7 @@
         app:layout_constraintHeight_percent="0.12"
         app:layout_constraintStart_toEndOf="@id/button_pn"
         app:layout_constraintTop_toTopOf="@id/button_pn"
-        app:layout_constraintWidth_percent="0.25"
-        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText" />
+        app:layout_constraintWidth_percent="0.25" />
     <Button
         android:id="@+id/button_dot"
         android:layout_width="wrap_content"
@@ -318,7 +313,6 @@
         android:textColor="@android:color/white"
         android:textSize="24sp"
         app:cornerRadius="0dp"
-        app:layout_constraintBottom_toBottomOf="button_pn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.12"
         app:layout_constraintStart_toEndOf="@id/button_dot"
