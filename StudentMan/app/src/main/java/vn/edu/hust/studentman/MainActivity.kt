@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
     val editMssv = dialogView.findViewById<EditText>(R.id.edit_mssv)
 
     AlertDialog.Builder(this)
-      .setTitle("Nhap thong tin sinh vien")
+      .setTitle("Add Student")
       .setView(dialogView)
       .setPositiveButton("OK") { _, _ ->
         val hoten = editHoten.text.toString()
@@ -97,8 +97,8 @@ class MainActivity : AppCompatActivity() {
   private fun deleteStudent(position: Int) {
     val deletedStudent = students[position]
     AlertDialog.Builder(this)
-      .setTitle("Xóa sinh viên")
-      .setMessage("Bạn có chắc muốn xóa sinh viên này?")
+      .setTitle("Delete Student")
+      .setMessage("Are you sure you want to delete this student?")
       .setPositiveButton("Delete") { _, _ ->
         students.removeAt(position)
         studentAdapter.notifyItemRemoved(position)
