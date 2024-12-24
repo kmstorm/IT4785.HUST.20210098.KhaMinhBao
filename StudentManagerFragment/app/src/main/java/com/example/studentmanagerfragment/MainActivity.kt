@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         "Nguyen Huong Tra - 20210099",
         "Pep Guardiola - 20210911"
     )
+    
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
